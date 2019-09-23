@@ -1,0 +1,15 @@
+public class A
+    {   
+        public static int factorial(int n){
+			int res = n;
+			if (n > 1){
+				res *= factorial(n-1);
+				}
+			return res;
+		}
+        
+        public static void main(string[] argc){
+            int n = factorial(5);	
+			Console.WriteLine(n);
+        }
+    }
